@@ -18,6 +18,8 @@ pip install requests
 pip install pycryptodome
 pip install execjs
 pip install Pyside6
+
+# wuku到此一游
 ```
 
 
@@ -44,6 +46,8 @@ python shark_translate.py
 ## 翻译接口解析
 
 [有道翻译逆向详细解析](https://blog.csdn.net/m0_73641772/article/details/139907510)
+
+
 [金山词霸逆向详细解析](https://blog.csdn.net/m0_73641772/article/details/140152668)
 
 ### 百度翻译（老版本）
