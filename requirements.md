@@ -15,9 +15,9 @@ ____
 安装命令
 
 ```shell
-pip install pycryptodome
-pip install requests
-pip install pyside6
-pip install pyexecjs
+pip install pycryptodome==3.18.0
+pip install requests==2.31.0
+pip install pyside6==6.5.2
+pip install pyexecjs==1.5.1
 ```
 

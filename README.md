@@ -22,8 +22,6 @@ pip install Pyside6
 # wuku到此一游
 ```
 
-
-
 ## 个性化GUI翻译窗口（使用Pyside6搭建）
 
 项目根目录下运行命令
