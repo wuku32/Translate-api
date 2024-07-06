@@ -8,9 +8,8 @@ function n(t, e) {
     return t
 }
 
-var r = '320305.131321201'
-
 function T(t) {
+    var r = '320305.131321201'
     var o, i = t.match(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g);
     if (null === i) {
         var a = t.length;
@@ -53,5 +52,5 @@ function T(t) {
         "".concat((b %= 1e6).toString(), ".").concat(b ^ f)
 }
 
-// console.log(T('spider'))
+console.log(T('spider'))
 // 63766.268839

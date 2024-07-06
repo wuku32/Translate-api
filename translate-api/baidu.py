@@ -29,8 +29,9 @@ headers = {
     'sec-ch-ua-mobile': '?0',
     'sec-ch-ua-platform': '"Windows"',
 }
-with open('./baid.js', 'r', encoding='utf-8') as f1:
+with open('baidu.js', 'r', encoding='utf-8') as f1:
     js_code = f1.read()
+
 params = {
     "from": "auto",
     "to": "zh",
@@ -39,7 +40,7 @@ params = {
     "sign": execjs.compile(js_code).call('T', query),
     "token": "618e4f37cd15de2718962c27a17da2a4",
     "domain": "common",
-    "ts": "1689345863582"
+    "ts": int(time.time() * 1000) # 单位从`s`精确到`ms`
 }
 response = requests.post(url="https://fanyi.baidu.com/v2transapi", headers=headers, params=params)
 response.encoding = 'utf-8'
