@@ -1,5 +1,7 @@
 # Translate-api@鲨鱼爱兜兜
 
+***wuku32到此一游***
+
 该项目集成了百度翻译，有道翻译，金山词霸，360翻译 多种翻译api接口，开发者均可直接调用。
 
 项目依赖库：
@@ -18,8 +20,6 @@ pip install requests
 pip install pycryptodome
 pip install execjs
 pip install Pyside6
-
-# wuku到此一游
 ```
 
 ## 个性化GUI翻译窗口（使用Pyside6搭建）
